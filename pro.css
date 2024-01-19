@@ -1,0 +1,273 @@
+/* body{
+    background-image: url("csspro3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+} */
+*{
+    margin-right: 0px;
+    /* padding: 0px; */
+    /* overflow-x: hidden; */
+
+} 
+
+#pic {
+    background-image: url("csspro3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 100vw; */
+    height: 750px;
+    /* width: 1400px; */
+    overflow-x: hidden;
+
+}
+
+h2 {
+    color: white;
+    font-family: cursive;
+    padding: 0px 25px;
+
+}
+
+span#o {
+    color: rgb(228, 163, 11);
+}
+
+table {
+
+    border-collapse: collapse;
+    position: relative;
+    bottom: 50px;
+}
+
+
+h1 {
+    color: white;
+    font-family: Lucida Handwriting;
+    font-size: 80px;
+    margin: 50px 50px;
+    padding: 50px 50px;
+    position: relative;
+    top: 145px;
+    left: 320px;
+}
+
+span#c {
+    color: rgb(249, 190, 53);
+
+}
+
+h3 {
+    color: white;
+    font-weight: lighter;
+    margin: 50px 50px;
+    padding: 50px 50px;
+    position: relative;
+    top: px;
+    left: 340px;
+    bottom: 15px;
+    font-family: Lucida Console;
+}
+
+button {
+    color: white;
+    font-weight: lighter;
+    position: relative;
+    top: px;
+    left: 650px;
+    bottom: 90px;
+    border: 1px solid white;
+    border-radius: 50px;
+    backface-visibility: hidden;
+    background-color: transparent;
+}
+
+/* p {
+    font-size: 30px;
+    font-family: Copperplate;
+
+} */
+
+a {
+    text-decoration-line: none;
+    color: white;
+}
+ a:hover{
+    color:  rgb(216, 181, 99);
+    font-size:15px;
+}
+
+.F-MAIN {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.four {
+    margin: 70px 30px;
+    height: 240px;
+    width: 240px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 40px rgb(176, 241, 220);
+
+}
+
+#f1 {
+    font-size: 17px;
+    padding: 25px;
+    /* text-align: center; */
+}
+
+#f1 span {
+    font-size: 20px;
+    font-family: cursive;
+}
+
+#f1 i {
+    padding-top: 30px;
+    padding-bottom: 10px;
+
+    font-size: 55px;
+    color: rgb(228, 163, 11);
+}
+
+#f1:hover {
+    background-color: rgb(228, 163, 11);
+    color: white;
+}
+
+#f1 i:hover {
+
+    color: black;
+}
+.work{
+
+    margin-left: 80px;
+    height: 620px;
+width: 620px;
+    
+     display: grid;
+     grid-template-columns: auto auto;
+     column-gap: 10px;
+     row-gap: 0px;
+     background-color: white;
+
+}
+.w img{
+    margin-top: 10px;
+    text-align: center;
+/* margin-left: 12px; */
+height: 320px;
+width: 350px;
+/* background-color: burlywood; */
+border: 2px solid rgb(142, 125, 125);
+/* border-radius: 6px; */
+
+}
+#w1 img{
+    height: 300px;
+width: 300px;
+}
+#w2 img{
+    height: 220px;
+width: 220px;
+position: relative;
+bottom: -80px;
+}
+#w3 img{
+    height: 220px;
+    width: 220px;
+    position: relative;
+    right: -80px;
+}
+#w4 img{
+    height: 305px;
+width: 300px;
+}
+.us{
+    /* float: right; */
+    /* background-color: aquamarine; */
+    margin-right: 100px;
+    height: 620px;
+width: 620px;
+position: relative;
+
+top: 100px; 
+left:80px; 
+}
+.wel{
+    color:rgb(228, 163, 11) ;
+    
+   
+font-family: 'Pacifico', cursive;
+line-height: 0.5rem;
+    font-size: 25px;
+    font-weight: lighter;
+}
+/* .wel::after {
+    position: absolute;
+    content: "";
+    width: 45px;
+    height: 2px;
+    top: 50%;
+    right: -55px;
+    margin-top: -1px;
+    background: var(--primary);
+} */
+.wel2{
+    margin-bottom: 1.5rem !important;
+
+    font-size: calc(1.375rem + 1.5vw);
+
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #0F172B;
+}
+.para2{
+    font-size: 18px;
+color: rgb(102, 114, 114);
+line-height: 25px;
+}
+.para3{
+    font-size: 18px;
+color: rgb(102, 114, 114);
+line-height: 25px;
+}
+.two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ele{
+    margin-top: 100px;
+    text-align: center;
+}
+#d1{
+    color:rgb(228, 163, 11) ;
+    font-family: 'Pacifico', cursive;
+line-height: 0.5rem;
+    font-size: 25px;
+    font-weight: lighter;
+}
+.line1{
+    text-align: center;
+    align-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#d2{
+    margin-bottom: 1.5rem !important;
+
+    font-size: calc(1.375rem + 1.5vw);
+
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #0F172B;
+}
+
